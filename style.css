@@ -17,6 +17,6 @@ color: darkgrey;
 }
 
 /* Apply the font to your website headings */
-h1, h2, h3 {
+h1, h2, h3, pre {
     font-family: 'Sugo Pro Display', sans-serif;
 }
