@@ -7,3 +7,16 @@ padding: 20px;}
 .text1 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 color: darkgrey;
 }
+
+@font-face {
+    font-family: 'Sugo Pro Display';
+    src: url('Sugo-Pro-Display-Regular-trial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Apply the font to your website headings */
+h1, h2, h3 {
+    font-family: 'Sugo Pro Display', sans-serif;
+}
