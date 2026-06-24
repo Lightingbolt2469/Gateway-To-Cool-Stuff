@@ -20,3 +20,9 @@ color: darkgrey;
 h1, h2, h3, pre {
     font-family: 'Sugo Pro Display', sans-serif;
 }
+
+h2 {
+    /* min-size: 1.8rem, scaling-rate: 4vw, max-size: 3rem */
+    font-size: clamp(1.8rem, 4vw, 3rem); 
+    text-align: center;
+}
